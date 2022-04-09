@@ -14,7 +14,7 @@ a{
     clear: left;
 }
 
-.header{
+header{
     background-color:deepskyblue;
     height: 400px;
 }
@@ -97,12 +97,10 @@ img{
 }
 
 .Recommendation{
-    background-image: url(photo0000-3847.jpg);
+    background-color: aquamarine;
     background-size: cover;
-    height: 1000px;
+    height: 1300px;
     margin: 0 auto;
-    
-    
 }
 
 
@@ -135,30 +133,6 @@ img{
     text-align: center;
 }
 
-.others{
-    height: 500px;
-    color:beige;
-}
-
-.others p{
-    font-size: 60px;
-    color:cyan;
-}
-
-.others h2{
-    font-size: 50px;
-    color:aquamarine
-}
-
-.others h1 h3{
-    font-size: 55px;
-    color:lime;
-}
-
-.contact{
-    height: 300px;
-}
-
 .btn{
     padding: 10px 25px;
     color: white;
@@ -169,31 +143,37 @@ img{
 .Home{
     background-color:lightgreen;
     margin-right: 5px;
+    height: 20px;
 }
 
 .all{
     background-color:lightblue;
     margin-right: 5px;
+    height: 20px;
 }
 
 .earing{
     background-color: coral;
     margin-right: 5px;
+    height: 20px;
 }
 
 .bracelet{
     background-color: cyan;
     margin-right: 5px;
+    height: 20px;
 }
 
 .ring{
     background-color:blueviolet;
     margin-right: 5px;
+    height: 20px;
 }
 
 .others{
     background-color: gold;
     margin-right: 5px;
+    height: 20px;
 }
 
 .okiniiri{
@@ -213,4 +193,26 @@ img{
 
 .base{
     background-color: yellow;
+}
+
+footer{
+height: 500px;
+background-color: cornflowerblue;
+}
+
+footer p{
+font-size: 30px;
+text-align: center;
+}
+
+footer h1 h3{
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+}
+
+footer h2{
+    display: inline-block;
+    font-size: 40px;
+    text-align: center
 }
