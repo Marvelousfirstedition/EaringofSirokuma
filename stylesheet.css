@@ -31,49 +31,14 @@ header{
     padding-right: 10px;
 }
 
-.slider{
-    width: 1200px;
-    height: 800px;
-    overflow: hidden;
-    margin: 0 auto;
-}
-
-.slider-item{
-    width: 400px;
-    float: left;
-}
-
 img{
     width: 100%;
-}
-
-.slider-inner{
-    width: 300%;
-    animation: slider 20s infinite ease;
-}
-
-@keyframes slider{
-    0%{
-        transform: translateX(0);
-    }
-
-    33%{
-        transform: translateX(-300px);
-    }
-
-    66%{
-        transform: translateX(-600px);
-    }
-
-    100%{
-        transform: translateX(0);
-    }
 }
 
 .top-wrapper{
     background-image:url(photo0000-0492.jpg);
     background-size: cover;
-    height: 760px;
+    height: 800px;
     margin: 0 auto;
 }
 
@@ -134,7 +99,7 @@ img{
 }
 
 .btn{
-    padding: 10px 25px;
+    padding: 10px 20px 10px 20px;
     color: white;
     display: inline-block;
     opacity: 0.7;
@@ -142,53 +107,34 @@ img{
 
 .Home{
     background-color:lightgreen;
-    margin-right: 5px;
-    height: 20px;
 }
 
 .all{
     background-color:lightblue;
-    margin-right: 5px;
-    height: 20px;
 }
 
 .earing{
     background-color: coral;
-    margin-right: 5px;
-    height: 20px;
 }
 
 .bracelet{
     background-color: cyan;
-    margin-right: 5px;
-    height: 20px;
 }
 
 .ring{
     background-color:blueviolet;
-    margin-right: 5px;
-    height: 20px;
-}
-
-.others{
-    background-color: gold;
-    margin-right: 5px;
-    height: 20px;
 }
 
 .okiniiri{
     background-color: white;
-    margin-right: 20px;
 }
 
 .hisuiame{
     background-color: cyan;
-    margin-right: 20px;
 }
 
 .naminokoe{
     background-color:lightblue;
-    margin-right: 20px;
 }
 
 .base{
@@ -200,19 +146,24 @@ height: 500px;
 background-color: cornflowerblue;
 }
 
+footer a{
+    color:black;
+}
+
 footer p{
-font-size: 30px;
-text-align: center;
+    display: block;
+    font-size: 30px;
+    text-align: center;
 }
 
 footer h1 h3{
-    display: inline-block;
+    display: block;
     font-size: 30px;
     text-align: center;
 }
 
 footer h2{
-    display: inline-block;
+    display: block;
     font-size: 40px;
     text-align: center
 }
